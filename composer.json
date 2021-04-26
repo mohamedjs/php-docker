@@ -1,0 +1,17 @@
+{
+    "name": "php/native",
+    "description": "native php code test",
+    "authors": [{
+        "name": "mohamed",
+        "email": "mohammed_hs55@yahoo.com"
+    }],
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app/"
+        }
+    }
+}
