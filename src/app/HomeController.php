@@ -3,18 +3,17 @@
 namespace App;
 
 class HomeController
-{    
-    private $string = 'new';
+{  
     /**
-     * Method sayHelloWorld
+     * Method factorial
      *
      * @param int $number
      * @return int
      */
-    public function fib(int $number): int
+    public function factorial(int $number): int
     {
         if($number < 1)
             return 1;
-        return $this->fib($number-1)*$number;
+        return $this->factorial($number-1)*$number;
     }
 }

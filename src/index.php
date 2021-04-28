@@ -6,4 +6,4 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use App\HomeController;
 $homeController = new HomeController;
 
-echo $homeController->fib(8);
+echo $homeController->factorial(5);
