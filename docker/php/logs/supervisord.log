@@ -289,3 +289,21 @@
 2021-04-25 12:44:27,778 INFO waiting for redis-server_00, php-fpm_00 to die
 2021-04-25 12:44:28,792 INFO stopped: php-fpm_00 (exit status 0)
 2021-04-25 12:44:28,884 INFO stopped: redis-server_00 (exit status 0)
+2021-05-09 13:30:00,520 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-05-09 13:30:00,521 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-05-09 13:30:00,528 INFO RPC interface 'supervisor' initialized
+2021-05-09 13:30:00,528 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-05-09 13:30:00,529 INFO supervisord started with pid 1
+2021-05-09 13:30:01,538 INFO spawned: 'redis-server_00' with pid 9
+2021-05-09 13:30:01,553 INFO spawned: 'php-fpm_00' with pid 10
+2021-05-09 13:30:01,562 INFO spawned: 'laravel-echo-server_00' with pid 11
+2021-05-09 13:30:01,625 INFO exited: laravel-echo-server_00 (exit status 1; not expected)
+2021-05-09 13:30:02,627 INFO success: redis-server_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-05-09 13:30:02,627 INFO success: php-fpm_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-05-09 13:30:02,629 INFO spawned: 'laravel-echo-server_00' with pid 21
+2021-05-09 13:30:02,692 INFO exited: laravel-echo-server_00 (exit status 1; not expected)
+2021-05-09 13:30:05,087 INFO spawned: 'laravel-echo-server_00' with pid 30
+2021-05-09 13:30:05,129 INFO exited: laravel-echo-server_00 (exit status 1; not expected)
+2021-05-09 13:30:08,138 INFO spawned: 'laravel-echo-server_00' with pid 37
+2021-05-09 13:30:08,200 INFO exited: laravel-echo-server_00 (exit status 1; not expected)
+2021-05-09 13:30:09,202 INFO gave up: laravel-echo-server_00 entered FATAL state, too many start retries too quickly
